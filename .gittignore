@@ -1,0 +1,5 @@
+# NetBean
+build/
+dist/
+nbproject/private/
+*.class
