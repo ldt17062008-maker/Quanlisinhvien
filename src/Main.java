@@ -29,4 +29,4 @@ public class Main {
     static void them(){ System.out.print("Ma: "); String ma=sc.nextLine(); System.out.print("Ten: "); String ten=sc.nextLine(); System.out.print("Toan: "); double t=Double.parseDouble(sc.nextLine()); System.out.print("Ly: "); double l=Double.parseDouble(sc.nextLine()); System.out.print("Hoa: "); double h=Double.parseDouble(sc.nextLine()); danhSach.add(new SinhVien(ma,ten,t,l,h)); }
     static void hienThi(){ for(SinhVien sv:danhSach) sv.hienThi(); }
     static void tim(){ System.out.print("Ma can tim: "); String m=sc.nextLine(); for(SinhVien sv:danhSach) if(sv.getMaSV().equalsIgnoreCase(m)) sv.hienThi(); }
-}
+}// chuc nang nhap va hien thi sinh vien
