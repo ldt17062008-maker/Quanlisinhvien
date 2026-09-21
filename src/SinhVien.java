@@ -26,4 +26,4 @@ public class SinhVien {
     public void hienThi() {
         System.out.printf("%-10s | %-20s | DTB: %.2f | %s\n", maSV, hoTen, tinhDiemTrungBinh(), xepLoai());
     }
-}
+}// chuc nang tim kiem sinh vien
